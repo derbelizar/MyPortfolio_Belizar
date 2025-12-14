@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Profile</title>
+<!-- Google Font -->
+<link
+href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap"
+rel="stylesheet">
+<style>
+body {
+font-family: 'Poppins', sans-serif;
+margin: 0;
+background: #f5f6fa;
+color: #333;
+}
+/* Navigation */
+nav {
+background: #2c3e50;
+padding: 15px 20px;
+text-align: center;
+}
+nav a {
+color: #ecf0f1;
+text-decoration: none;
+margin: 0 15px;
+font-weight: 500;
+}
+nav a:hover {
+text-decoration: underline;
+}
+/* Main Layout */
+.container {
+max-width: 1100px;
+margin: auto;
+padding: 20px;
+display: flex;
+gap: 40px;
+flex-wrap: wrap;
+}
+/* Left Column */
+.left-col {
+flex: 1 1 300px;
+background: #fff;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+.profile-img {
+width: 100%;
+border-radius: 10px;
+margin-bottom: 20px;
+}
+h2 {
+margin-bottom: 5px;
+}
+.role {
+color: #7f8c8d;
+font-size: 0.9em;
+}
+.section-title {
+margin-top: 30px;
+border-left: 4px solid #3498db;
+padding-left: 10px;
+font-weight: 600;
+}
+/* Skills */
+dl dt {
+font-weight: 600;
+margin-top: 10px;
+}
+dl dd {
+margin-left: 20px;
+color: #555;
+}
+/* Right Column */
+.right-col {
+flex: 1 1 500px;
+background: #fff;
+padding: 25px;
+border-radius: 10px;
+box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+/* Form */
+form input[type="text"],
+form input[type="email"] {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+form input[type="submit"] {
+margin-top: 15px;
+padding: 10px 20px;
+background: #3498db;
+border: none;
+color: white;
+font-weight: 600;
+border-radius: 5px;
+cursor: pointer;
+}
+form input[type="submit"]:hover {
+background: #2980b9;
+}
+/* Footer */
+footer {
+text-align: center;
+padding: 20px;
+margin-top: 30px;
+background: #2c3e50;
+color: #ecf0f1;
+}
+</style>
+</head>
+<body>
+<!-- Navigation -->
+<nav>
+<a href="#home">Home</a>
+<a href="#about">About Me</a>
+</nav>
+<!-- Main Content -->
+<div class="container">
+<!-- Left Column -->
+<div class="left-col">
+<div id="home">
+<img src="Belizar.jpg" alt="Profile Image" width= 20 height= 300 class="profile-img">
+<h2>Derine Angelo C.Belizar</h2>
+<p class="role">Web Developer</p>
+</div>
+<h3 class="section-title">Contact Info</h3>
+<p>Email: belizardac@student.nu-fairview.edu.ph</p>
+<p>Phone: 09123456789</p>
+<p>Location: Quezon City</p>
+<h3 class="section-title">Skills</h3>
+<dl>
+<dt>Frontend</dt>
+<dd>HTML</dd>
+<dd>CSS</dd>
+<dd>JavaScript</dd>
+</dl>
+</div>
+<!-- Right Column -->
+<div class="right-col">
+<div id="about">
+<h2>About Me</h2>
+<p>
+I’m a web developer who enjoys creating clean, responsive, and easy-to-use websites.
+I like learning new tools and improving my skills so I can build better and
+more meaningful online experiences.
+</p>
+</div>
+<h2 class="section-title">Message Me</h2>
+<form action="submit" method="post">
+<p>
+Name:<br>
+<input type="text" name="name">
+</p>
+<p>
+Email:<br>
+<input type="email" name="email">
+</p>
+<p>
+Message:<br>
+<textarea name="message" rows="5" cols="40 " placeholder="write your message
+here..."></textarea>
+</p>
+<p>
+<input type="submit" value="Send">
+</p>
+</form>
+</div>
+</td>
+</tr>
+</table>
+<hr>
+<div>
+<p><center><strong>WebProg - Web Programming 2025</strong></center></p>
+</div>
